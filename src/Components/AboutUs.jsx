@@ -44,7 +44,7 @@ const AboutUs = () => {
               <img
                 src={QC}
                 alt="Quality Coffee"
-                className="w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
+                className="w-42 h-42 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
               />
               <p className="mt-4 text-lg text-gray-800 font-semibold">
                 Quality Coffee
@@ -58,7 +58,7 @@ const AboutUs = () => {
               <img
                 src={ps}
                 alt="Delicious Pastries"
-                className="w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
+                className="w-42 h-42 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
               />
               <p className="mt-4 text-lg text-gray-800 font-semibold">
                 Delicious Pastries
@@ -72,7 +72,7 @@ const AboutUs = () => {
               <img
                 src={bc}
                 alt="Building Community"
-                className="w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
+                className="w-42 h-42 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
               />
               <p className="mt-4 text-lg text-gray-800 font-semibold">
                 Building Community
