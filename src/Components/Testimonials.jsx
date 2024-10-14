@@ -14,17 +14,19 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-gray-800 to-gray-900 text-white">
-      <div className="container mx-auto text-center">
-        <h2 className="text-5xl font-bold mb-6">Customer Reviews</h2>
-        <p className="text-lg text-gray-300 mb-12">
+      <div className="container mx-auto text-center px-4 md:px-8">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          Customer Reviews
+        </h2>
+        <p className="text-lg md:text-xl text-gray-300 mb-12">
           What our customers are saying about Atrium.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {testimonials.map((testimony, index) => (
             <div
               key={index}
-              className="p-8 bg-gray-700 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 relative"
+              className="p-6 md:p-8 bg-gray-700 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 relative"
             >
               {/* Decorative Quote Icon */}
               <div className="absolute top-0 left-0 mt-[-2rem] ml-[-2rem]">
@@ -48,7 +50,7 @@ const Testimonials = () => {
               <p className="text-lg italic leading-relaxed">
                 "{testimony.feedback}"
               </p>
-              <h4 className="mt-6 text-2xl font-semibold text-white">
+              <h4 className="mt-6 text-xl md:text-2xl font-semibold text-white">
                 {testimony.name}
               </h4>
               <div className="mt-4">

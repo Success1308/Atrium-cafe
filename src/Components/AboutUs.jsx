@@ -8,14 +8,14 @@ const AboutUs = () => {
       id="about"
       className="py-24 bg-gradient-to-b from-gray-100 to-gray-50 text-gray-900"
     >
-      <div className="container mx-auto text-center px-8">
+      <div className="container mx-auto text-center px-4 md:px-8">
         {/* Heading with a more pronounced shadow and upscale animation */}
-        <h2 className="text-6xl font-extrabold mb-10 text-brown-700 cursor-pointer drop-shadow-lg transition-transform duration-500 transform hover:scale-110">
+        <h2 className="text-4xl md:text-6xl font-extrabold mb-10 text-brown-700 cursor-pointer drop-shadow-lg transition-transform duration-500 transform hover:scale-110">
           Discover Atrium Café
         </h2>
 
         {/* Main description with a more refined fade-in and text emphasis */}
-        <p className="mt-6 text-xl max-w-3xl mx-auto leading-relaxed text-gray-800 animate-fadeIn">
+        <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed text-gray-800 animate-fadeIn">
           Step into Atrium Café, where the rich aroma of freshly brewed coffee
           welcomes you into an ambiance of warmth and comfort. We are devoted to
           bringing you the finest quality coffee and delightful pastries,
@@ -28,10 +28,10 @@ const AboutUs = () => {
 
         {/* Mission Section */}
         <div className="mt-12">
-          <h3 className="text-4xl font-bold text-gray-800 tracking-wider underline decoration-brown-600">
+          <h3 className="text-3xl md:text-4xl font-bold text-gray-800 tracking-wider underline decoration-brown-600">
             Our Mission
           </h3>
-          <p className="mt-6 text-lg max-w-xl mx-auto leading-relaxed text-gray-700">
+          <p className="mt-6 text-base md:text-lg max-w-xl mx-auto leading-relaxed text-gray-700">
             Atrium Café is more than just a coffee shop; it's a community hub.
             We aim to create a welcoming space where friends, family, and
             colleagues gather to enjoy exceptional food and beverages while
@@ -39,12 +39,12 @@ const AboutUs = () => {
           </p>
 
           {/* Enhanced icon section with hover effects and more luxurious visuals */}
-          <div className="mt-16 flex justify-center gap-12">
-            <div className="p-16 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
+          <div className="mt-16 flex flex-col md:flex-row justify-center gap-8">
+            <div className="p-6 md:p-10 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
               <img
                 src={QC}
                 alt="Quality Coffee"
-                className="w-48 h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
+                className="w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
               />
               <p className="mt-4 text-lg text-gray-800 font-semibold">
                 Quality Coffee
@@ -54,11 +54,11 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div className="p-16 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
+            <div className="p-6 md:p-10 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
               <img
                 src={ps}
                 alt="Delicious Pastries"
-                className="w-48 h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
+                className="w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
               />
               <p className="mt-4 text-lg text-gray-800 font-semibold">
                 Delicious Pastries
@@ -68,11 +68,11 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div className="p-16 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
+            <div className="p-6 md:p-10 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
               <img
                 src={bc}
                 alt="Building Community"
-                className="w-48 h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
+                className="w-32 h-32 md:w-48 md:h-48 mx-auto rounded-full border-2 border-yellow-500 cursor-pointer"
               />
               <p className="mt-4 text-lg text-gray-800 font-semibold">
                 Building Community

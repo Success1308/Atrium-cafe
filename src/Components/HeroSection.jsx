@@ -20,16 +20,16 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="h-[70vh] relative border-b-4 border-yellow-500 z-10 "
+      className="h-[70vh] md:h-[70vh] sm:h-[30vh] h-[30vh] xs:h-[40vh] lg:h-[90vh] relative border-b-4 border-yellow-500 z-10 "
     >
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
             <div
-              className="h-[70vh] bg-contain bg-center"
+              className="h-[70vh] md:h-[70vh] sm:h-[30vh] h-[30vh] xs:h-[40vh] lg:h-[90vh] bg-contain bg-center"
               style={{ backgroundImage: `url(${image})` }}
             >
-              <div className="h-[70vh] flex flex-col justify-center items-center bg-black bg-opacity-50"></div>
+              <div className="h-[70vh] md:h-[70vh] sm:h-[30vh] h-[30vh] xs:h-[40vh] lg:h-[90vh] flex flex-col justify-center items-center bg-black bg-opacity-50"></div>
             </div>
           </div>
         ))}
