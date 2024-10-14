@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease forwards;
+}
+
+.animate-fadeIn.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.animate-fadeIn.delay-2 {
+  animation-delay: 1s;
+}
+
+@font-face {
+  font-family: "EduAUVICWANTGuides";
+  src: url("../public/SyneMono-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "EduAUVICWANTGuides", sans-serif;
+}
