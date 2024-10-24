@@ -40,7 +40,7 @@ const AboutUs = () => {
 
           {/* Enhanced icon section with hover effects and more luxurious visuals */}
           <div className="mt-16 flex flex-col md:flex-row justify-center gap-8">
-            <div className="p-12 md:p-10 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
+            <div className="p-12 md:p-12 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
               <img
                 src={QC}
                 alt="Quality Coffee"
@@ -54,7 +54,7 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div className="p-12 md:p-10 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
+            <div className="p-12 md:p-12 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
               <img
                 src={ps}
                 alt="Delicious Pastries"
@@ -68,7 +68,7 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div className="p-12 md:p-10 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
+            <div className="p-12 md:p-12 bg-white rounded-full shadow-xl transition-all hover:bg-brown-50 hover:scale-105">
               <img
                 src={bc}
                 alt="Building Community"
