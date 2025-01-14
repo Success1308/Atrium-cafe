@@ -1,6 +1,7 @@
 # Atrium Café
 
 
+
 Welcome to the Atrium Café web application! ☕✨ This project is designed to provide a modern, user-friendly experience for customers looking to explore the menu, learn about the café, and get in touch.
 
 ## Table of Contents
